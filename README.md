@@ -10,7 +10,7 @@ $ sudo curl [url] | bash
 
 Sometimes, if the software is exceptionally high quality, the instructions will even [split this line into a multiple steps](https://clojure.org/guides/getting_started#_installation_on_linux).
 
-This is very complicated and confusing for users and so in the same style as apt-url links, we demand (and plan to write) a URL handler which will allow developers of all types to create links users can click on to run complete this installation workflow.
+This is very complicated and confusing for users and so in the same style as apt-url links, we demand (and plan to write) a URL handler which will allow developers of all types to create links users can click on to achieve this complete installation workflow with a click.
 
 It's important to register a URL handler because it emables all sorts of useful workflows, such as allowing users to send each other `sudocurlpipebash://` links in chat apps to enable easier collaboration.
 
