@@ -5,7 +5,7 @@
 A significant number of extremnely high quality software ~~splats~~packages have an install process that requires users to curl a web URL, pipe it through bash and run it through `sudo`.  
 
 ```console
-$ sudo curl [url] | bash
+$ sudo "curl [url] | bash"
 ```
 
 Sometimes, if the software is exceptionally high quality, the instructions will even [split this line into a multiple steps](https://clojure.org/guides/getting_started#_installation_on_linux).
